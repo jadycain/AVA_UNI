@@ -1,0 +1,101 @@
+{
+    "hello": "你好9527",
+    "nav": {
+      "home": "首頁",
+      "services": "服務",
+      "support": "聯絡"
+    },
+    "hero": {
+      "title": "AVA UNI - 企業不可或缺的信賴夥伴",
+      "content": "AVA UNI 致力於成為企業成長的推動者。無論是系統整合或是數位解決方案，我們的專業團隊都能提供最合適的方案，協助客戶達成各項目標。",
+      "button": "即刻聯絡"
+    },
+    "services": {
+      "title": "Our Unique & Awesome Core Services",
+      "services_item" : [
+        {
+          "title": "System & App Development",
+          "content": "Providing comprehensive digital product planning from concept to delivery, ensuring high quality and performance."
+        },
+        {
+          "title": "System Analysis & Integration",
+          "content": "Conducting in-depth system analysis to identify and resolve potential issues, offering integration solutions to enhance business operations efficiency."
+        },
+        {
+          "title": "UX/UI Design & Strategy",
+          "content": "Focusing on user experience and interface design, formulating effective digital development strategies."
+        }
+      ]
+    },
+    "about": {
+      "title": "Know Details About AVA UNI",
+      "panel": {
+        "about" : "About Us",
+        "mission" : "Our Mission"
+      },
+      "about_item": [
+        {
+          "title": "Experts in System Integration",
+          "content": "AVA UNI 致力於提供最新的數位解決方案。以創新和客戶滿意為目標，幫助企業實踐數位理想。AVA UNI 擁有多年系統開發經驗，我們的團隊擅長打造卓越的數位產品，無論是企業系統、電子商務平台與行動應用，我們一手包辦。信賴我們的客戶遍佈香港、台灣與新加坡等亞洲各地。"
+        },
+        {
+          "title": "Continuously Innovating to Meet the Unique Needs of Diverse Businesses",
+          "content": "AVA UNI 長年為客戶提出各項解決方案，不僅依照客戶的需求提供服務，更會針對顧客背景進行開發調查與分析，提出量身打造的產品開發企劃。我們期待藉由極具專業的服務，推動並提升企業及其客戶的用戶體驗，持續創造豐富實績。"
+          
+        }
+      ]
+    },
+    "team": {
+      "title": "Meet With Our Creative Dedicated Team",
+      "team_item": [
+        {
+          "name": "Charlie Chien",
+          "position": "專案經理"
+        },
+        {
+          "name": "Victor Chan",
+          "position": "方案經理"
+        },
+        {
+          "name": "Canny Ma",
+          "position": "方案經理"
+        },
+        {
+          "name": "Alvin Liu",
+          "position": "專案經理"
+        },
+        {
+          "name": "Ray Wu",
+          "position": "系統分析師"
+        },
+        {
+          "name": "Jason Chen",
+          "position": "系統分析師"
+        }
+      ]
+    },
+    "support": {
+      "title": "Need Any Help? Say hello",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Donec vitae tortor aliquam ante.",
+      "email": "Email",
+      "phone": "電話",
+      "office": "地址",
+      "address": "香港荔枝角好運工業中心1005室"
+    },
+    "cta": {
+      "title": ["找尋最佳數位方案？", "聯絡 AVA UNI 攜手構建您的產品。"],
+      "content": "填寫表單或透過電子郵件與我們聯繫",
+      "button": "立即聯絡"
+    },
+    "footer": {
+      "footer_item": [
+        {
+          "title": "聯絡我們",
+          "item": [{
+            "email": "Email",
+            "phone": "電話"
+          }]
+        }
+      ]
+    }
+  }
