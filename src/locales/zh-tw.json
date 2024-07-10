@@ -14,33 +14,33 @@
       "title": "Our Unique & Awesome Core Services",
       "services_item" : [
         {
-          "title": "System & App Development",
-          "content": "Providing comprehensive digital product planning from concept to delivery, ensuring high quality and performance."
+          "title": "系統與數位服務開發",
+          "content": "提供各項數位產品規劃，從概念到交付，確保高品質和高性能。"
         },
         {
-          "title": "System Analysis & Integration",
-          "content": "Conducting in-depth system analysis to identify and resolve potential issues, offering integration solutions to enhance business operations efficiency."
+          "title": "全方位系統分析與整合",
+          "content": "深入的系統分析，發現並解決潛在問題，提供系統整合方案以提升業務運營效率。"
         },
         {
-          "title": "UX/UI Design & Strategy",
-          "content": "Focusing on user experience and interface design, formulating effective digital development strategies."
+          "title": "UX/UI 設計與策略",
+          "content": "專注於用戶體驗和界面設計，制定數位開發策略。"
         }
       ]
     },
     "about": {
       "title": "Know Details About AVA UNI",
       "panel": {
-        "about" : "About Us",
-        "mission" : "Our Mission"
+        "about" : "關於我們",
+        "mission" : "我們的使命"
       },
       "about_item": [
         {
-          "title": "Experts in System Integration",
-          "content": "AVA UNI 致力於提供最新的數位解決方案。以創新和客戶滿意為目標，幫助企業實踐數位理想。AVA UNI 擁有多年系統開發經驗，我們的團隊擅長打造卓越的數位產品，無論是企業系統、電子商務平台與行動應用，我們一手包辦。信賴我們的客戶遍佈香港、台灣與新加坡等亞洲各地。"
+          "title": "系統整合專家",
+          "content": ["AVA UNI 致力於提供最新的數位解決方案。我們以創新和客戶滿意為目標，幫助企業實踐數位理想。","憑藉多年系統開發經驗，AVA UNI 團隊專長於打造卓越的數位產品。無論是企業系統、電子商務平台還是行動應用，我們一手包辦。信賴我們的客戶遍佈香港、台灣、新加坡等亞洲地區，相信我們值得您的信賴。"]
         },
         {
-          "title": "Continuously Innovating to Meet the Unique Needs of Diverse Businesses",
-          "content": "AVA UNI 長年為客戶提出各項解決方案，不僅依照客戶的需求提供服務，更會針對顧客背景進行開發調查與分析，提出量身打造的產品開發企劃。我們期待藉由極具專業的服務，推動並提升企業及其客戶的用戶體驗，持續創造豐富實績。"
+          "title": "不斷創新以滿足企業的獨特需求",
+          "content": ["AVA UNI 長年為客戶提出各項解決方案，不僅依照客戶的需求提供服務，更會針對顧客背景進行開發調查與分析，提出量身打造的產品開發企劃。","我們期待藉由極具專業的服務，推動並提升企業及其客戶的用戶體驗，持續創造豐富實績。"]
           
         }
       ]
