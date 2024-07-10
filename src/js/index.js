@@ -143,6 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
     tabPanels.forEach(function (node) {
       node.style.display = "none";
     });
+
     tabPanels[panelIndex].style.display = "flex";
   }
   showPanel();
