@@ -28,10 +28,10 @@ footer.wow.fadeInUp.pt-14(class='sm:pt-20 lg:pt-[130px]', data-wow-delay='.2s')
         .w-full.px-4(class='md:w-1/2 lg:w-2/3')
           .mb-5.flex.items-center.justify-center.space-x-5.border-b.pb-5(class='dark:border-[#2E333D] md:mb-0 md:justify-start md:border-0 md:pb-0')
             a.font-heading.text-base.text-dark-text(href=`${LANG === 'zh-tw' ? '/' : 'zh-tw/index.html'}`, class='hover:text-primary')
-              =LANG === 'zh-tw' ? '繁體中文' : 'English'
+              =LANG === 'zh-TW' ? '繁體中文' : 'English'
             //- a.font-heading.text-base.text-dark-text(href='javascript:void(0)', class='hover:text-primary')
             //-   | Privacy Policy
         .w-full.px-4(class='md:w-1/2 lg:w-1/3')
           div
-            p.text-center.font-heading.text-base.text-dark-text(class='lg:text-right')
+            p.text-center.font-heading.text-base.text-dark-text(class='lg:text-right')(lang='en')
               | &copy; 2024 AVA UNI. All rights reserved

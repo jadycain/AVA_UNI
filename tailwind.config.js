@@ -4,7 +4,6 @@ module.exports = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      heading: "'Lexend', sans-serif",
       body: "'Inter', sans-serif",
     },
     container: {

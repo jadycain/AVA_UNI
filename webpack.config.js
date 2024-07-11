@@ -91,7 +91,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       // template: './html/index.pug',
       template: `!!html-loader!pug-html-loader?${createPugHtmlLoaderOptions({
-        LANG: "zh-tw",
+        LANG: "zh-TW",
       })}!src/pug/index.pug`,
       filename: "zh-tw/index.html",
     }),
