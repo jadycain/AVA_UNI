@@ -5,6 +5,10 @@
 /*!*******************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/css/style.css (1) ***!
   \*******************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap);
+/*!*******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/css/style.css (2) ***!
+  \*******************************************************************************************************************/
 /*
 ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
@@ -411,9 +415,17 @@ video {
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
-body{
+/* body {
+        @apply font-body;
+    } */
+
+html:lang(en){
   font-family: 'Inter', sans-serif;
 }
+
+html:lang(zh-TW) {
+      font-family: 'Noto Sans TC', sans-serif;
+    }
 
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
@@ -605,6 +617,9 @@ html{
     font-size: 95px;
   }
 }
+.title{
+  font-family: 'Inter', sans-serif;
+}
 .dark .title {
       background: linear-gradient(
         180deg,
@@ -631,6 +646,15 @@ html{
 }
 .portfolio-btn-wrapper button.active{
   text-decoration-line: underline;
+}
+.font-heading[lang="zh-TW"] {
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+.font-heading[lang="en"] {
+      font-family: 'Lexend', sans-serif;
+    }
+.inner-en-font{
+  font-family: 'Inter', sans-serif;
 }
 .sr-only{
   position: absolute;
@@ -1135,9 +1159,6 @@ html{
 }
 .text-center{
   text-align: center;
-}
-.font-heading{
-  font-family: 'Lexend', sans-serif;
 }
 .text-2xl{
   font-size: 1.5rem;
