@@ -3,27 +3,33 @@
 - const members = [
 -    {
 -        name: t["team"].team_item[0].name,
--        position: t["team"].team_item[0].position
+-        position: t["team"].team_item[0].position,
+-        img: 'Charlie.png'
 -    },
 -    {
 -        name: t["team"].team_item[1].name,
--        position: t["team"].team_item[1].position
+-        position: t["team"].team_item[1].position,
+-        img: 'Victor.jpg'
 -    },
 -    {
 -        name: t["team"].team_item[2].name,
--        position: t["team"].team_item[2].position
+-        position: t["team"].team_item[2].position,
+-        img: 'Canny.jpg'
 -    },
 -    {
 -        name: t["team"].team_item[3].name,
--        position: t["team"].team_item[3].position
+-        position: t["team"].team_item[3].position,
+-        img: 'Alvin.png'
 -    },
 -    {
 -        name: t["team"].team_item[4].name,
--        position: t["team"].team_item[4].position
+-        position: t["team"].team_item[4].position,
+-        img: 'Ray.png'
 -    },
 -    {
 -        name: t["team"].team_item[5].name,
--        position: t["team"].team_item[5].position
+-        position: t["team"].team_item[5].position,
+-        img: 'Jason.png'
 -    }
 -]
 
@@ -39,7 +45,7 @@ section#team.pt-14(class='sm:pt-20 lg:pt-[130px]')
         .w-full.px-4(class='md:w-1/2 lg:w-1/4')
           .wow.fadeInUp.group.mx-auto.mb-10.text-center(class='max-w-[300px] xs:max-w-[370px]', data-wow-delay='.2s')
             .relative.mb-8.overflow-hidden.rounded
-              img.w-full(src=`../images/team/image-${index+1}.jpg`, alt='team-image')
+              img.w-full(src=`../images/team/${val.img}`, alt='team-image')
               .duration-300.absolute.bottom-6.translate-y-10.opacity-0.transition(class='left-1/2 -translate-x-1/2 group-hover:translate-y-0 group-hover:opacity-100')
                 .flex.items-center.justify-center.space-x-3
                   a.flex.h-10.w-10.items-center.justify-center.rounded-full.border.border-white.border-opacity-10.bg-white.bg-opacity-10.text-white.backdrop-blur.transition(href='javascript:void(0)', name='social-icon', aria-label='social-icon', class='hover:border-transparent hover:bg-primary hover:bg-opacity-100')

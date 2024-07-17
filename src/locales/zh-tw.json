@@ -75,15 +75,14 @@
       ]
     },
     "support": {
-      "title": "Need Any Help? Say hello",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Donec vitae tortor aliquam ante.",
+      "title": "Need Any Help? Say Hello",
       "email": "Email",
       "phone": "電話",
       "office": "地址",
       "address": "香港荔枝角好運工業中心1005室"
     },
     "cta": {
-      "title": ["找尋最佳數位方案？", "聯絡 AVA UNI 攜手構建您的產品。"],
+      "title": ["找尋最佳數位方案？", "與 AVA UNI 攜手構建您的產品"],
       "content": "填寫表單或透過電子郵件與我們聯繫",
       "button": "立即聯絡"
     },
